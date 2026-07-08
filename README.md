@@ -1,29 +1,28 @@
-````markdown
 # 🧠 Skill Map Agent using MCP
 
 An intelligent Skill Map Agent built with LangChain, Google Gemini, Model Context Protocol (MCP), Tavily Search, and JSearch API.
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/PYTHON-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LANGCHAIN-AGENT-1B4332?style=for-the-badge)
-![Google Gemini](https://img.shields.io/badge/GOOGLE-GEMINI-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-PROTOCOL-7B3FF2?style=for-the-badge)
-![Tavily](https://img.shields.io/badge/TAVILY-WEB_SEARCH-1E88E5?style=for-the-badge)
-![JSearch](https://img.shields.io/badge/JSEARCH-API-FF9800?style=for-the-badge)
-![Google Colab](https://img.shields.io/badge/GOOGLE-COLAB-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+<img src="https://img.shields.io/badge/PYTHON-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/LANGCHAIN-AGENT-1B4332?style=for-the-badge">
+<img src="https://img.shields.io/badge/GOOGLE-GEMINI-4285F4?style=for-the-badge&logo=google&logoColor=white">
+<img src="https://img.shields.io/badge/MCP-PROTOCOL-7B3FF2?style=for-the-badge">
+<img src="https://img.shields.io/badge/TAVILY-WEB_SEARCH-1E88E5?style=for-the-badge">
+<img src="https://img.shields.io/badge/JSEARCH-API-FF9800?style=for-the-badge">
+<img src="https://img.shields.io/badge/GOOGLE-COLAB-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white">
 
 </p>
 
 <p align="center">
-  <img src="assets/project-overview.png" alt="Skill Map Agent Overview" width="100%">
+    <img src="assets/project-overview.png" alt="Project Overview">
 </p>
 
 ---
 
-## Project Overview
+# Project Overview
 
-### 📖 Overview
+## 📖 Overview
 
 This project implements an intelligent Skill Map Agent that analyzes the industry demand for a given skill and retrieves relevant job opportunities.
 
@@ -33,7 +32,7 @@ This project demonstrates how Model Context Protocol (MCP) tools and custom tool
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 - 🔍 Research industry demand for a given skill
 - 🌐 Retrieve industry information using Tavily Search
@@ -44,9 +43,9 @@ This project demonstrates how Model Context Protocol (MCP) tools and custom tool
 
 ---
 
-## 🏗️ Architecture
+# 🏗️ Architecture
 
-```
+```text
                            User Query
                                 │
                                 ▼
@@ -68,19 +67,19 @@ This project demonstrates how Model Context Protocol (MCP) tools and custom tool
 
 ---
 
-## ⚙️ Workflow
+# ⚙️ Workflow
 
 1. Initialize the Google Gemini model.
 2. Connect to the Tavily MCP server.
 3. Load the available MCP tools.
 4. Create a custom JSearch tool.
 5. Build a LangChain Agent using both the MCP tools and the custom JSearch tool.
-6. The agent automatically decides which tool should answer the user's query.
+6. The agent automatically selects the appropriate tool based on the user's query.
 7. Google Gemini generates the final response.
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 | Category | Technology |
 |----------|------------|
@@ -94,7 +93,7 @@ This project demonstrates how Model Context Protocol (MCP) tools and custom tool
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 Skill_Map_Agent/
@@ -109,9 +108,9 @@ Skill_Map_Agent/
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
-### Prerequisites
+## Prerequisites
 
 - Python 3.10+
 - Google Colab (Recommended)
@@ -119,13 +118,13 @@ Skill_Map_Agent/
 - Tavily API Key
 - RapidAPI Key (JSearch API)
 
-### Install Dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Configure API Keys
+## Configure API Keys
 
 Store the following secrets in Google Colab:
 
@@ -137,16 +136,16 @@ rapidapi_key
 
 No API keys are hardcoded inside the notebook.
 
-### Run the Project
+## Run the Project
 
 1. Open `Skill_Map_Agent.ipynb` in Google Colab.
 2. Configure the API keys using Colab Secrets.
 3. Run all notebook cells.
-4. Ask a skill or career-related question.
+4. Ask a skill-related question.
 
 ---
 
-## 💬 Example Query
+# 💬 Example Query
 
 ```text
 What's the demand for Generative AI in the industry?
@@ -161,7 +160,7 @@ The agent will:
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
 - 📊 Add salary insights to job search results
 - 🌍 Support multiple job search locations
@@ -171,9 +170,8 @@ The agent will:
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Prahladh Vulsa**
 
 ⭐ If you found this project useful, consider giving it a star!
-````
